@@ -4,7 +4,7 @@ import axios from "axios";
 
 export default {
   getRandomUser: function() {
-    return axios.get("https://randomuser.me/api/?results=5)");
+    return axios.get("https://randomuser.me/api/?results=100)");
   },
 //   getDogsOfBreed: function(breed) {
 //     return axios.get("https://randomuser.me/)" + breed + "/images");
