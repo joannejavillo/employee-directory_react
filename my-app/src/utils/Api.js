@@ -4,12 +4,14 @@ import axios from "axios";
 
 export default {
   getEmployee: function() {
-    return axios.get("https://randomuser.me/api/?results=100)");
+    return axios.get("https://randomuser.me/api/?results=20");
   },
 
-//   getDogsOfBreed: function(breed) {
-//     return axios.get("https://randomuser.me/)" + breed + "/images");
-//   },
+//getEmployee: function() {
+  //return axios.get("https://randomuser.me/api)" + + "/images");
+   //},
+
+
 //   getBaseBreedsList: function() {
 //     return axios.get("https://dog.ceo/api/breeds/list");
 //   }

@@ -48,6 +48,7 @@ class Search extends Component {
           <SearchForm
             handleFormSubmit={this.handleFormSubmit}
             handleInputChange={this.handleInputChange}
+            search={this.state.search}
             employee={this.state.employee}
           />
           <SearchResults results={this.state.results} />
