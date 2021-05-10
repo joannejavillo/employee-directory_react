@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import API from "../utils/API";
+import API from "../utils/Api";
 import Container from "../components/Container";
 import SearchForm from "../components/SearchForm";
 import SearchResults from "../components/SearchResults";
@@ -16,7 +16,10 @@ class Search extends Component {
   // When the component mounts, get a list of all available base employee and update this.state.employee
   componentDidMount() {
     API.getEmployee()
-      .then(res => this.setState({ employee: res.data.message }))
+      .then(res =>  { 
+        console.log(res)
+        this.setState({ employee: res.data.results })
+      }) 
       .catch(err => console.log(err));
   }
 
@@ -36,16 +39,12 @@ class Search extends Component {
       .catch(err => this.setState({ error: err.message }));
   };
   render() {
+    console.log(this.state.employee);
     return (
       <div>
         <Container style={{ minHeight: "80%" }}>
           <h1 className="text-center">Search By Employee!</h1>
-          <Alert
-            //type="danger"
-            //style={{ opacity: this.state.error ? 1 : 0, marginBottom: 10 }}
-          >
-            {this.state.error}
-       </Alert>
+          
           <SearchForm
             handleFormSubmit={this.handleFormSubmit}
             handleInputChange={this.handleInputChange}
