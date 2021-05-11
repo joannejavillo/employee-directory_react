@@ -1,4 +1,5 @@
 import React from "react";
+import SearchResults from "../SearchResults";
 import "./style.css";
 
 // Using the datalist element we can create autofill suggestions based on the props array
@@ -7,7 +8,8 @@ function SearchForm(props) {
       if (props.search === "") {
         return true;
       }
-      
+      console.log(employee)
+      return employee.name.first.includes(props.search);
   }
   return (
     <form className="search">
@@ -47,9 +49,7 @@ function SearchForm(props) {
             ))}
           </table>
         </div>
-        <button type="submit" onClick={props.handleFormSubmit} className="btn btn-success">
-          Search
-        </button>
+        
       </div>
     </form>
   );
