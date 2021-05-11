@@ -3,6 +3,12 @@ import "./style.css";
 
 // Using the datalist element we can create autofill suggestions based on the props array
 function SearchForm(props) {
+  const filterFunction = (employee) => {
+      if (props.search === "") {
+        return true;
+      }
+      
+  }
   return (
     <form className="search">
       <div className="form-group">
@@ -22,13 +28,13 @@ function SearchForm(props) {
           <table>
             <tr>
               <th>Picture</th>
-              <th>First Name</th>
+              <th onClick= {props.nameFilter}>Name</th>
               <th>Last Name</th>
               <th>Country</th>
               <th>Email</th>
               <th>Phone</th>
             </tr>
-            {props.employee.map(employee => (
+            {props.employee.filter(filterFunction).map(employee => (
               <tr key={employee.email} >
                 <td> <img src={employee.picture.thumbnail} alt="profile picture" /> </td>
                 <td> {employee.name.first} </td>
