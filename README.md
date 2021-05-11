@@ -1,3 +1,69 @@
+## employee-directory_react
+
+![License](https://img.shields.io/badge/License-MIT-purple)
+
+## Description 
+- This react application is all about creating an Employee directory using React application.
+- The user will be able to sort the table based on the name (First Name) of the employee. 
+  > If the user click the (First)Name header, it can sort the name of the employee either in ascending or descending order.
+ - The user will be able to filter the name of the employee
+   > If the user will type the first letter (Upper case) it will filter the employee's name by the first letter.
+   > If the user will type in lower case letters, it will give the user the names of employee's that has that letter.
+---
+---
+
+# Table of Contents 
+
+  - [Description](#Description)
+  - [Technologies](#Technologies)
+  - [Links](#Links)
+  - [Screenshots](#Screenshots)
+  - [Challenges](#Challenges)
+  - [License](#License)
+  - [Questions](#questions)
+---
+
+## Technologies
+NPM, React, Github
+
+---
+## Links
+ - Github: (https://github.com/joannejavillo/employee-directory_react)
+ - Deployed link : (https://joannejavillo.github.io/employee-directory_react/)
+ 
+
+---
+## Screenshots
+![screenshot-of-mainpage](./assets/mainpage-asc.png) "Main page- Filter: Ascending Order"
+---
+
+![screenshot-of-descending-order](./assets/descending.png) "Filter: Descending Order"
+---
+
+![screenshot-of-sort-name](./assets/sortname.png) "Sort by name" 
+---
+
+![screenshot-of-sort-by-first-letter](./assets/firstletter.png) "Filter by name - first letter" 
+---
+
+![screenshot-of-sort-by-lower-case](./assets/sort-lower-case.png) "Filter by name - lower case" 
+---
+
+---
+
+## Challenges
+ - Deploying in Github is quite challenging
+---
+## License
+- MIT
+---
+## Questions
+If you have any questions you can contact me at jo_anne.javillo@outlook.com or you can visit my gitHub page: (https://github.com/joannejavillo)
+
+---
+---
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
