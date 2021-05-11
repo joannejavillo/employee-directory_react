@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/joannejavillo/employee-directory_react/static/css/main.d67d48ed.chunk.css",
+    "main.js": "/joannejavillo/employee-directory_react/static/js/main.7f02edb6.chunk.js",
+    "main.js.map": "/joannejavillo/employee-directory_react/static/js/main.7f02edb6.chunk.js.map",
+    "runtime-main.js": "/joannejavillo/employee-directory_react/static/js/runtime-main.770076f4.js",
+    "runtime-main.js.map": "/joannejavillo/employee-directory_react/static/js/runtime-main.770076f4.js.map",
+    "static/css/2.800be05e.chunk.css": "/joannejavillo/employee-directory_react/static/css/2.800be05e.chunk.css",
+    "static/js/2.cfd7212e.chunk.js": "/joannejavillo/employee-directory_react/static/js/2.cfd7212e.chunk.js",
+    "static/js/2.cfd7212e.chunk.js.map": "/joannejavillo/employee-directory_react/static/js/2.cfd7212e.chunk.js.map",
+    "static/js/3.1aad7c54.chunk.js": "/joannejavillo/employee-directory_react/static/js/3.1aad7c54.chunk.js",
+    "static/js/3.1aad7c54.chunk.js.map": "/joannejavillo/employee-directory_react/static/js/3.1aad7c54.chunk.js.map",
+    "index.html": "/joannejavillo/employee-directory_react/index.html",
+    "static/css/2.800be05e.chunk.css.map": "/joannejavillo/employee-directory_react/static/css/2.800be05e.chunk.css.map",
+    "static/css/main.d67d48ed.chunk.css.map": "/joannejavillo/employee-directory_react/static/css/main.d67d48ed.chunk.css.map",
+    "static/js/2.cfd7212e.chunk.js.LICENSE.txt": "/joannejavillo/employee-directory_react/static/js/2.cfd7212e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.770076f4.js",
+    "static/css/2.800be05e.chunk.css",
+    "static/js/2.cfd7212e.chunk.js",
+    "static/css/main.d67d48ed.chunk.css",
+    "static/js/main.7f02edb6.chunk.js"
+  ]
+}
